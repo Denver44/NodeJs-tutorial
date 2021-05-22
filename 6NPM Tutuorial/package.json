@@ -1,0 +1,16 @@
+{
+  "name": "npmtuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "6Npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "6tutsfornpm_package",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.5",
+    "validator": "^13.1.17"
+  }
+}
