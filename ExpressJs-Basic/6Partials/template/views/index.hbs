@@ -1,0 +1,25 @@
+{{>head}}
+
+<body>
+    {{>navbar}}
+
+    <div class="container">
+
+        <h1>{{title}}</h1>
+        <p class="para">{{latest}}</p>
+
+
+        <form action="/" method="POST" id="gym">
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your Gender">
+            <input type="text" name="weight" id="weight" placeholder="Enter your Weight">
+            <input type="text" name="height" id="height" placeholder="Enter your Height">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
+            <button class="btn" type="submit">Submitt</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
