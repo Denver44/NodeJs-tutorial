@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#gym {
+  margin-top: 60px;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  padding: 3px 17px;
+  margin: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.1rem;
+}
+
+.container input {
+  display: block;
+  padding: 5px 17px;
+  margin: 15px auto;
+  width: 60%;
+}
+.container textarea {
+  padding: 5px 17px;
+  display: block;
+  margin: 15px auto;
+  width: 60%;
+}
+.btn {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.container {
+  max-width: 900px;
+  max-height: 900px;
+  /* background-color: yellow; */
+  margin: 5px auto;
+}
+body {
+  background-image: url(/Images//bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.para {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
