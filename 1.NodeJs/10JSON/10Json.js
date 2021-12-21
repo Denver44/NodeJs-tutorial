@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const biodata = {
-  first_name: "Durgesh",
+  first_name: "Denver",
   last_name: "Rai",
   Age: 20,
   Height: 178,

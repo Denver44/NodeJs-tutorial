@@ -41,9 +41,9 @@ const fs = require("fs"); // For reading and writing data in file we need Fs mod
 let text = fs.readFileSync("Files/dele.txt", "utf-8");
 
 // This replace actually replace the word from the text variable which is declare here.
-text = text.replace("Content", "Durgesh");
+text = text.replace("Content", "Denver");
 text = text.replace("u", "you are");
 console.log("The Content of the file is ", text);
 
 //To create a file and write on it this synchronous version.
-fs.writeFileSync("Files/durgesh.txt", text);
+fs.writeFileSync("Files/Denver.txt", text);

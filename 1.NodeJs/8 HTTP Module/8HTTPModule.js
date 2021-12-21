@@ -6,9 +6,9 @@ const port = 3000; // This port on which this will run.
 // 3000 is default for nodejs we can use 8000 also.
 
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/html");
-  res.end(`<!DOCTYPE html>
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "text/html");
+    res.end(`<!DOCTYPE html>
             <html lang="en">
 
             <head>
@@ -19,13 +19,13 @@ const server = http.createServer((req, res) => {
             </head>
             <body>
 
-            <h1>Hello Durgesh 👍</h1>
+            <h1>Hello Denver 👍</h1>
             </body>
             </html>`);
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}`);
+    console.log(`Server running at http://${hostname}:${port}`);
 });
 
 

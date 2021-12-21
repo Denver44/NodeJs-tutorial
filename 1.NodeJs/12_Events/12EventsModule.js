@@ -10,7 +10,7 @@ const event = new EvenEmitter(); // now we have create a object now we can use a
 
 
 event.on("sayMyName", () => {
-  console.log("Your name is Durgesh");
+  console.log("Your name is Denver");
 });
 
 // we can call multiple function with same name
