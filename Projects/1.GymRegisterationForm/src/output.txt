@@ -1,0 +1,5 @@
+The name :- denver04 age:- 21 gender:- Male  Weight:- 65 Height:- 178  Address:- Denver City 
+The name :- Adam lyth age:- 45 gender:- Male  Weight:- 89 Height:- 178  Address:- New York
+
+The name :- Vishal rai age:- 21 gender:- Male  Weight:- 65 Height:- 178  Address:- ontario
+The name :- Vishal rai age:- 21 gender:- Male  Weight:- 65 Height:- 178  Address:- ontario
